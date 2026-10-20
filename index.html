@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="El día en cinco áreas: hábitos, nivel y monedas. Los datos se quedan en este dispositivo.">
+  <title>Glow Up</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon-192.png">
+  <meta name="theme-color" content="#141a2e">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#contenido">Ir al contenido</a>
+  <header class="topbar">
+    <button type="button" class="back" id="back" hidden><span class="back-label">Volver</span></button>
+    <h1 id="screen-title" tabindex="-1">Glow Up</h1>
+    <p class="purse"><span class="coin" aria-hidden="true"></span><span id="coins-label"></span></p>
+    <div class="fx" id="fx" aria-hidden="true"></div>
+  </header>
+  <main id="contenido" tabindex="-1"></main>
+  <p class="sr-only" id="status" role="status" aria-live="polite"></p>
+  <div class="confetti" id="confetti" aria-hidden="true"></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
