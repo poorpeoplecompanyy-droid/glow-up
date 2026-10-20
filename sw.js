@@ -1,4 +1,4 @@
-const CACHE = "glow-up-v8"
+const CACHE = "glow-up-v9"
 const SPRITES = [29, 40, 48, 56, 89, 102, 108, 115]
   .map((n) => `./assets/sprites/tile_${String(n).padStart(4, "0")}.png`)
 const HEROES = ["elf", "dwarf", "knight", "wizard"].map((name) => `./assets/heroes/${name}.png`)
